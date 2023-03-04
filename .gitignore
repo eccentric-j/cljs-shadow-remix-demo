@@ -1,0 +1,7 @@
+/.cache
+/app/cljs/cljs-runtime
+/build
+/public/build
+/.shadow-cljs
+/.clj-kondo
+.env
