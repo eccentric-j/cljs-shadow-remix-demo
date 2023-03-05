@@ -10,5 +10,6 @@
     :output-dir "app/cljs"
     :runtime :node
     :js-options {:js-provider :import}
+    :compiler-options {:output-feature-set :es-next}
     :modules {:demo {:exports {DemoPage remix.demo.page/demo-page}}}}}}
 
