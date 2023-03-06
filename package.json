@@ -1,6 +1,6 @@
 {
 	"private": true,
-	"sideEffects": false,
+	"sideEffects": true,
 	"scripts": {
 		"build": "remix build",
 		"dev": "env NODE_ENV=development npm-run-all build --parallel \"dev:*\"",
